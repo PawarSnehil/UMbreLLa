@@ -1,0 +1,19 @@
+{
+    "model": "hugging-quants/Meta-Llama-3.1-70B-Instruct-AWQ-INT4",
+    "draft_model": "InfiniAILab/CodeDrafter-500M",
+    "offload": false,
+    "cuda_graph": true,
+    "max_length": 2048,
+    "num_cache_layers": 0,
+    "generation_length": 256,
+    "growmap_path": "../umbrella/trees/8b_sequoia_tree-5x6.json",
+    "max_turns": 16,
+    "topk": 32,
+    "temperature": 0,
+    "topp": 0.9,
+    "repetition_penalty": 1.0,
+    "exit_layer":16,
+    "engine": "static",
+    "template": "llama3-code",
+    "dtype": "float16"
+}
